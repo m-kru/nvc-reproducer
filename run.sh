@@ -14,3 +14,6 @@ nvc  --std=2019 -L. --work=work -a vhdl/work/tb.vhd
 
 # Elaboration
 nvc  --std=2019 -L. -e tb_cosim  -g G_SW_GW_FIFO_PATH=/tmp/python-to-vhdl-wb3 -g G_GW_SW_FIFO_PATH=/tmp/vhdl-wb3-to-python
+
+# Run
+nvc  --std=2019 -L. -r tb_cosim --wave
